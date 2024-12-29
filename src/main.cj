@@ -61,6 +61,7 @@ main(param: Array<String>): Int64 {
 
     routers.m["height"] = "173"
     routers.m["sanwei"] = "80 50 96"
+    routers.m["clothe"] = "比基尼"
 
     println(routers.m)
 
