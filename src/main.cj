@@ -59,6 +59,8 @@ main(param: Array<String>): Int64 {
 
     routers.m["name"] = "张元英"
 
+    routers.m["height"] = "173"
+
     println(routers.m)
 
     return 0
