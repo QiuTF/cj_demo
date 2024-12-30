@@ -21,8 +21,6 @@ main(param: Array<String>): Int64 {
 
     println(s.name)
 
-    // startServer()
-
     spawn {
         =>
         println("New thread before sleeping")
@@ -64,6 +62,8 @@ main(param: Array<String>): Int64 {
     routers.m["clothe"] = "齐逼超短比基尼"
 
     println(routers.m)
+
+    startServer()
 
     return 0
 }
