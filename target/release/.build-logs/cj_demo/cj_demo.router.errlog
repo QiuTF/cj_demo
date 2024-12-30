@@ -1,0 +1,9 @@
+[33mwarning[0m: unused variable:'h'
+ [36m==>[0m /home/qiutf/www/cj_demo/src/router/api.cj:6:5:
+  [36m| [0m
+[36m6[0m [36m| [0mvar h = HashSet<String>(["hello","qtf"])[0m
+  [36m| [0m    [33m^ unused variable[0m
+  [36m| [0m
+  [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+1 warning generated, 1 warning printed.

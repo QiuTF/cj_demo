@@ -1,0 +1,38 @@
+{
+  "packageInformation": {
+    "cj_demo.routers": {
+      "rootPackageName": "cj_demo",
+      "fileNameHash": "208081454908272625",
+      "timeStamp": 1735289719,
+      "buildFlag": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    },
+    "cj_demo.pkg": {
+      "rootPackageName": "cj_demo",
+      "fileNameHash": "4549086874315136536",
+      "timeStamp": 1731919242,
+      "buildFlag": true,
+      "exeName": "",
+      "hasSubPkgs": true
+    },
+    "cj_demo": {
+      "rootPackageName": "cj_demo",
+      "fileNameHash": "1914056590799619172",
+      "timeStamp": 1735289817,
+      "buildFlag": true,
+      "exeName": "main",
+      "hasSubPkgs": true
+    },
+    "cj_demo.pkg.dao": {
+      "rootPackageName": "cj_demo",
+      "fileNameHash": "1370117307436955083",
+      "timeStamp": 1731916856,
+      "buildFlag": true,
+      "exeName": "",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "7075091252511868937",
+  "rootPackageName": "cj_demo"
+}

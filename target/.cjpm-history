@@ -1,0 +1,78 @@
+{
+  "resolves": [
+    {
+      "rootPackageName": "cj_demo",
+      "modulePath": ".",
+      "packagePath": "/home/qiutf/www/cj_demo/src/pkg",
+      "fullName": "cj_demo.pkg",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "c_libs": {},
+      "isTestPkg": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj_demo",
+      "modulePath": ".",
+      "packagePath": "/home/qiutf/www/cj_demo/src/pkg/dao",
+      "fullName": "cj_demo.pkg.dao",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "c_libs": {},
+      "isTestPkg": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj_demo",
+      "modulePath": ".",
+      "packagePath": "/home/qiutf/www/cj_demo/src/routers",
+      "fullName": "cj_demo.routers",
+      "isMacroPackage": false,
+      "output-type": "static",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [],
+      "c_libs": {},
+      "isTestPkg": false,
+      "accessLevel": "public"
+    },
+    {
+      "rootPackageName": "cj_demo",
+      "modulePath": ".",
+      "packagePath": "/home/qiutf/www/cj_demo/src",
+      "fullName": "cj_demo",
+      "isMacroPackage": false,
+      "output-type": "executable",
+      "compile-option": "",
+      "native-compile-option": "",
+      "customized-option": {},
+      "link-option": "",
+      "native-link-option": "",
+      "requires": [
+        "cj_demo.pkg.dao",
+        "cj_demo.pkg",
+        "cj_demo.routers"
+      ],
+      "c_libs": {},
+      "isTestPkg": false,
+      "accessLevel": "public"
+    }
+  ],
+  "binDeps": {},
+  "crossBinDeps": {}
+}
