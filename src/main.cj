@@ -55,11 +55,9 @@ main(param: Array<String>): Int64 {
 
     routers.m["age"] = "28"
 
-    routers.m["name"] = "张元英"
+    routers.m["name"] = "张三"
 
     routers.m["height"] = "173"
-    routers.m["sanwei"] = "80 50 96"
-    routers.m["clothe"] = "齐逼超短比基尼"
 
     println(routers.m)
 
