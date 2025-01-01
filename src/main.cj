@@ -8,7 +8,6 @@ import std.collection.*
 import cj_demo.routers
 
 main(param: Array<String>): Int64 {
-
     println(param)
 
     println("hello world")
@@ -39,17 +38,17 @@ main(param: Array<String>): Int64 {
 
     println(age)
 
-    var arr :Array<String> = ["qttf","好好好"]
+    var arr: Array<String> = ["qttf", "好好好"]
 
     arr[0] = "123"
 
-    var arr1 :ArrayList<Int16> = ArrayList<Int16>([1,2])
+    var arr1: ArrayList<Int16> = ArrayList<Int16>([1, 2])
 
     arr1.append(9)
 
     println(arr1)
 
-    for(i in routers.h){
+    for (i in routers.h) {
         println(i)
     }
 

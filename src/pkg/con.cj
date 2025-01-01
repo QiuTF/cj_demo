@@ -15,7 +15,7 @@ public func startServer(): Unit {
             httpContext => httpContext.responseBuilder.body("Hello Cangjie!")
         }
     )
-   
+
     // 3. 启动服务
     http.serve()
 }

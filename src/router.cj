@@ -8,5 +8,4 @@ public struct Person {
     }
 }
 
-
-public let age:Int8 = 12
+public let age: Int8 = 12
